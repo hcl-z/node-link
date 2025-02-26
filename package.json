@@ -1,5 +1,5 @@
 {
-  "name": "node-link",
+  "name": "@hcl-z/node-link",
   "version": "1.0.0",
   "description": "Cross-package-manager Node.js package linking tool",
   "homepage": "https://github.com/hcl-z/node-link",
@@ -9,7 +9,8 @@
   },
   "main": "./bin/node-link.js",
   "bin": {
-    "node-link": "./bin/node-link.js"
+    "node-link": "./bin/node-link.js",
+    "nl": "./bin/node-link.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

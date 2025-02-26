@@ -14,7 +14,7 @@
 
 ## Installation
 ```
-npm install -g node-link
+npm install -g @hcl-z/node-link
 ```
 
 ## Usage

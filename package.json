@@ -1,0 +1,26 @@
+{
+  "name": "node-link",
+  "version": "1.0.0",
+  "description": "Cross-package-manager Node.js package linking tool",
+  "homepage": "https://github.com/hcl-z/node-link",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hcl-z/node-link.git"
+  },
+  "main": "./bin/node-link.js",
+  "bin": {
+    "node-link": "./bin/node-link.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli","link","package","node"],
+  "author": "hcl-z",
+  "license": "ISC",
+  "dependencies": {
+    "cmd-shim": "^7.0.0",
+    "colorette": "^2.0.20",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0"
+  }
+}
